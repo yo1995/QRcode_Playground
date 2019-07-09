@@ -22,6 +22,10 @@ file to qrcode
 
 ## QRCodec
 
+Convert arbitrary file to an animated GIF and share freely!
+
+Encode a file to a GIF of QR code frames, share with any image hosting service, and decode the GIF back to the original file.
+
 将文件转为二维码动态GIF，上传至图床分享，以打破图床只能分享图片的限制——无拘无束，在任何不压缩GIF的图床分享文件！
 
 ### 原理
