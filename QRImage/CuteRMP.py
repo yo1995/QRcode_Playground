@@ -97,7 +97,7 @@ def produce(txt,img,ver=5,err_crt = qrcode.constants.ERROR_CORRECT_H,bri = 1.0, 
 
     i = 0
     for frame in ImageSequence.Iterator(img):
-        procs[i] = pool1.apply_async(produce_impl, args=(txt, frame.copy(), ver, err_crt, bri, cont, colourful, rgba, pixelate, padding)).get()
+        procs[i] = pool1.apply_async(produce_impl, args=(txt, frame.copy(), ver, err_crt, bri, cont, colourful, rgba, pixelate, padding))
         i += 1
         print('Frame ', str(i), ' added to pool.')
     # wait until all frames are done
@@ -105,7 +105,7 @@ def produce(txt,img,ver=5,err_crt = qrcode.constants.ERROR_CORRECT_H,bri = 1.0, 
     pool1.join()
 
     for i in range(frame_count):
-        frames[i] = procs[i].get
+        frames[i] = procs[i].get()
 
     return frames
 

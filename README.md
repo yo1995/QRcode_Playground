@@ -1,8 +1,14 @@
+![自引](/out.gif)
+
 # QRcode_Playground
 
-📊 A repo with many fascinating project related to QR code
+A repo with many fascinating project related to QR code
 
 Please refer to https://yo1995.github.io/coding/file-to-GIF/ to learn more about the first two projects.
+
+## 解码看戏 ↓ 
+
+![谢谢老板.pdf](/readme_PDF_base32.gif)
 
 ## SEO
 
