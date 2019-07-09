@@ -38,7 +38,7 @@ Encode a file to a GIF of QR code frames, share with any image hosting service, 
 
 - 编码
 
-首先将文件转为对应的 base64 字符串表示，然后将字符串按照符合二维码最大利用率的长度分割，并将每个分割后的子串编码为二维码。接着把二维码转为 GIF 的一帧，拼接得到输出 GIF。
+首先将文件转为对应的 base64/base32 字符串表示，然后将字符串按照符合二维码最大利用率的长度分割，并将每个分割后的子串编码为二维码。接着把二维码转为 GIF 的一帧，拼接得到输出 GIF。
 
 - 解码
 
